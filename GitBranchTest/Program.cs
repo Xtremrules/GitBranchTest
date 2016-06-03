@@ -8,6 +8,8 @@ namespace GitBranchTest {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine("Welcome to my app");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Value entered is {name}");
             Console.ReadKey();
         }
     }
