@@ -1,13 +1,13 @@
-﻿using System;
+﻿using static System.Console;
 
 namespace GitBranchTest {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Welcome to my app");
-            Console.WriteLine("Enter a value");
-            var name = Console.ReadLine();
-            Console.WriteLine($"Value entered is {name}");
-            Console.ReadKey();
+            WriteLine("Welcome to my app");
+            WriteLine("Enter a value");
+            var name = ReadLine();
+            WriteLine($"Value entered is {name}");
+            ReadKey();
         }
     }
 }
