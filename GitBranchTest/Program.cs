@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace GitBranchTest {
     class Program {
         static void Main(string[] args) {
+            Console.WriteLine("Welcome to my app");
+            Console.ReadKey();
         }
     }
 }
